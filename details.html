@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <div class="body">
+        <div class="navbar">
+            <nav id="navbar">
+                <div>
+                    
+                        
+                        <%= link_to "Mwiko", "index" %>
+
+                    
+                </div>
+                <div>
+            
+                        
+                        <%= link_to "Portfolio", "details" %>
+                    
+                </div>
+                
+                <div>
+                    
+                        
+                        <%= link_to "About", "about" %>
+                    
+                </div>
+                
+                <div id="theme-options-wrapper">
+                    <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                    <div data-mode="dark" id="dark-mode" class="theme-dot"></div>
+                
+                </div>
+            </nav>
+        </div>
+        <div class="feed__all">
+        <div class="heading">
+            <h1>Portfolio</h1>
+        </div>
+        <div class="mainbody">
+            <div id="main__box">
+
+               <div id="left__box">
+                <p>mwiko.heroku.com</p>
+                
+                <a href="#"><i class="fa fa-github fa-3x"></i></a>
+               </div>
+               <div id="right__box">
+                <p>this is the Portfolio website i built and hosted on heroku to showcase some of the projects i have worked on, the site site includes a light theme
+                    dark theme toggle
+                </p>
+               </div>
+            </div>
+            <div id="main__box">
+
+                <div id="left__box">
+                 <p>rails photo album app</p>
+                 
+                 <a href="#"><i class="fa fa-github fa-3x "></i></a>
+                </div>
+                <div id="right__box">
+                 <p>rails photo album app was a full stack project that implemented the full functionality of instagram,  users can 
+                     add images,like images and follow other users </p>
+                </div>
+             </div>
+             <div id="main__box">
+
+                <div id="left__box">
+                 <p>django twitter clone</p>
+                 
+                 <a href="#"><i class="fa fa-github fa-3x"></i></a>
+                </div>
+                <div id="right__box">
+                 <p>i probably spent more time on twitter than any other site so i decided to attempt
+                     building a twitter clone in django with the feel 
+                    and look of the original twitter app, users can post tweets delete tweets, follow each other 
+                    had so much fun working on this 
+                 </p>
+                </div>
+             </div>
+             <div id="main__box">
+
+                <div id="left__box">
+                 <p>rails blog</p>
+                 
+                 <a href="#"><i class="fa fa-github fa-3x"></i></a>
+                </div>
+                <div id="right__box">
+                 <p>in this app users could add blog post and other users could add comments to the blog
+                     ... my favorite part about rails is how easy it is to put together a crud app
+                    and add relational models, permisions etc this project specially showed this through a simple scaffold
+                    and a very simplified controller..
+                 </p>
+                </div>
+             </div>
+             
+             <div id="main__box">
+
+                <div id="left__box">
+                 <p>django api</p>
+                 
+                 <a href="#"><i class="fa fa-github fa-3x"></i></a>
+                </div>
+                <div id="right__box">
+                 <p>this is an api endpoint without a frontend, the app was done using django restframework
+                    with fully create, read, update and delete functionality</p>
+                </div>
+             </div>
+             <div id="main__box">
+
+                <div id="left__box">
+                 <p>django todo app</p>
+                 
+                 <a href="#"><i class="fa fa-github fa-3x"></i></a>
+                </div>
+                <div id="right__box">
+                 <p> saw alot of online artcles about a django todo app so i decide to taste the waters and build my own 
+                     todo app,the app show how tobuild crud functionality in django</p>
+                </div>
+             </div>
+             <div id="main__box">
+
+                <div id="left__box">
+                 <p>pygame tetris game</p>
+                 
+                 <a href="#"><i class="fa fa-github fa-3x"></i></a>
+                </div>
+                <div id="right__box">
+                 <p>tetris is one of the most popular games grew up obsessed with my brick game so after i learned enough about pygame i tried to 
+                     test my skillset by building the tetris game, the whole project took me alot of hours but full enjoyed the process
+
+                 </p>
+                </div>
+             </div>
+            
+        </div>
+       </div>
+    </div>
+   
+    
+  </body>
+</html>
+
+
