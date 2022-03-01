@@ -150,17 +150,17 @@ p {
 }
 
 #main__box{
-  background-color: var(--thirdColor);
+  background-color: #fdfeff;
   color: var(--firstColor);
   display: flex;
   border: 2px solid var(--thirdColor);
   border-radius: 10px;
-  margin: 25px;
-  padding: 20px;
+  margin: 50px;
+  padding: 30px;
   
 }
 #cv__box{
-  background-color: var(--thirdColor);
+  background-color: #85a6de;
   color: var(--firstColor);
   
   border: 2px solid var(--thirdColor);
