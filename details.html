@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
   </head>
 
@@ -34,113 +35,188 @@
                     
                 </div>
                 
-                <div id="theme-options-wrapper">
-                    <div data-mode="light" id="light-mode" class="theme-dot"></div>
-                    <div data-mode="dark" id="dark-mode" class="theme-dot"></div>
                 
-                </div>
             </nav>
         </div>
         <div class="feed__all">
         <div class="heading">
             <h1>Portfolio</h1>
         </div>
-        <div class="mainbody">
-            <div id="main__box">
 
-               <div id="left__box">
-                <p>mwiko.heroku.com</p>
-                
-                <a href="#"><i class="fa fa-github fa-3x"></i></a>
-               </div>
-               <div id="right__box">
-                <p>this is the Portfolio website i built and hosted on heroku to showcase some of the projects i have worked on, the site site includes a light theme
-                    dark theme toggle
-                </p>
-               </div>
-            </div>
-            <div id="main__box">
-
-                <div id="left__box">
-                 <p>rails photo album app</p>
-                 
-                 <a href="#"><i class="fa fa-github fa-3x "></i></a>
-                </div>
-                <div id="right__box">
-                 <p>rails photo album app was a full stack project that implemented the full functionality of instagram,  users can 
-                     add images,like images and follow other users </p>
-                </div>
-             </div>
-             <div id="main__box">
-
-                <div id="left__box">
-                 <p>django twitter clone</p>
-                 
-                 <a href="#"><i class="fa fa-github fa-3x"></i></a>
-                </div>
-                <div id="right__box">
-                 <p>i probably spent more time on twitter than any other site so i decided to attempt
-                     building a twitter clone in django with the feel 
-                    and look of the original twitter app, users can post tweets delete tweets, follow each other 
-                    had so much fun working on this 
-                 </p>
-                </div>
-             </div>
-             <div id="main__box">
-
-                <div id="left__box">
-                 <p>rails blog</p>
-                 
-                 <a href="#"><i class="fa fa-github fa-3x"></i></a>
-                </div>
-                <div id="right__box">
-                 <p>in this app users could add blog post and other users could add comments to the blog
-                     ... my favorite part about rails is how easy it is to put together a crud app
-                    and add relational models, permisions etc this project specially showed this through a simple scaffold
-                    and a very simplified controller..
-                 </p>
-                </div>
-             </div>
-             
-             <div id="main__box">
-
-                <div id="left__box">
-                 <p>django api</p>
-                 
-                 <a href="#"><i class="fa fa-github fa-3x"></i></a>
-                </div>
-                <div id="right__box">
-                 <p>this is an api endpoint without a frontend, the app was done using django restframework
-                    with fully create, read, update and delete functionality</p>
-                </div>
-             </div>
-             <div id="main__box">
-
-                <div id="left__box">
-                 <p>django todo app</p>
-                 
-                 <a href="#"><i class="fa fa-github fa-3x"></i></a>
-                </div>
-                <div id="right__box">
-                 <p> saw alot of online artcles about a django todo app so i decide to taste the waters and build my own 
-                     todo app,the app show how tobuild crud functionality in django</p>
-                </div>
-             </div>
-             <div id="main__box">
-
-                <div id="left__box">
-                 <p>pygame tetris game</p>
-                 
-                 <a href="#"><i class="fa fa-github fa-3x"></i></a>
-                </div>
-                <div id="right__box">
-                 <p>tetris is one of the most popular games grew up obsessed with my brick game so after i learned enough about pygame i tried to 
-                     test my skillset by building the tetris game, the whole project took me alot of hours but full enjoyed the process
-
-                 </p>
-                </div>
-             </div>
+        <section id="portfolio">
+        <div class="container mt-3">
             
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">Web Calculator</h4>
+                            <p class="card-text">Elegant designed calculator with high simplicity for users to play around with</p>
+                            <div class="text-center">
+                                <a href="mwikoscalc.herokuapp.com" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">Quiz App</h4>
+                            <p class="card-text">Barebones quiz in vanilla js where users can choose between multiple choice answers</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">Ecommerce Store</h4>
+                            <p class="card-text">Online store with add to cart functionality, options for user logins, easy paypal, stripe and visa card checkouts </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">Instagram Clone</h4>
+                            <p class="card-text">Photo sharing app designed to look and feel like the instagram application</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">Twitter Clone</h4>
+                            <p class="card-text">An app with similar twitter functionality and user interfase, design.. user can post tweets, commmet and search for tother users</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                    
+                        <div class="card-body">
+                            <h4 class="card-title">Blog App</h4>
+                            <p class="card-text">Blog web application where users can post and interract through comments</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3">
+            
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                
+                        <div class="card-body">
+                            <h4 class="card-title">Todo App</h4>
+                            <p class="card-text">Personal management tool, todo app. i have built this in several
+                            version and libraris that are available on my github </p>
+                            <div class="text-center">
+                                <a href="mwikostodos.herokuapp.com" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">Weather Units Converter</h4>
+                            <p class="card-text">An easy way to convert between the weather unit of measurements 
+                            celsius, fahrenheit and kelvin</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">Budgeting WebApp</h4>
+                            <p class="card-text">This is an easy personal finance tool using the javascript 
+                            library React</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                
+                        <div class="card-body">
+                            <h4 class="card-title">Dark/Light Mode</h4>
+                            <p class="card-text">Vanilla javascript version
+                            of the dark/light mode toggle functionality </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                    
+                        <div class="card-body">
+                            <h4 class="card-title">Currency Converter</h4>
+                            <p class="card-text">tried to build a simple currency converter in react</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                
+                        <div class="card-body">
+                            <h4 class="card-title">Tetris</h4>
+                            <p class="card-text">spent much of the time organizing image splits for this pygame imitation of the popular tetris game</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
         </div>
        </div>
     </div>
